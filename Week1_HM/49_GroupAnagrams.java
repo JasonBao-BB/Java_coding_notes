@@ -1,7 +1,7 @@
 public class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
 
-        HashMap<String, List<String>> map = new HashMap<String, List<String>>();
+        Map<String, List<String>> map = new HashMap<String, List<String>>();
 
         for (String s: strs) {
 
@@ -16,7 +16,6 @@ public class Solution {
             }
             map.get(key).add(s);
         }
-
         return new ArrayList<List<String>>(map.values());
     }
 }
