@@ -6,7 +6,6 @@ Here, we will use the integers 0, 1, and 2 to represent the color red, white, an
 
 public class Solution {
 
-  //题目陷阱： 注意
     public void sortColors(int[] nums) {
 
       int head = 0;
